@@ -31,6 +31,13 @@ public class Electrica {
         return facturaTotal;
     }
 
+    @Override
+    public String toString() {
+        return "Electrica [clientes=" + clientes + "]";
+    }
+
+    
+
 
     
 }

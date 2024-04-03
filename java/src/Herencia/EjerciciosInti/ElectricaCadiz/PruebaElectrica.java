@@ -11,5 +11,6 @@ public class PruebaElectrica {
         eCadiz.agregarCliente(cliente3);
         System.out.println("Número de clientes con paneles: " + eCadiz.getCantidadClientesPaneles());
         System.out.println("Facturación total de la compañía: " + eCadiz.getFacturacionTotal());
+        
     }
 }

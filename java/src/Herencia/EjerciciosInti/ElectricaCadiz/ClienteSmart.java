@@ -9,9 +9,17 @@ public class ClienteSmart extends Cliente {
 
     @Override
     public double importeFacura(){
-        double descuento =  super.importeFacura() * (porcentajeDescuento/100);
-        return super.importeFacura() - descuento;
+        double imp = super.importeFacura();
+        double descuento =  imp * (porcentajeDescuento/100);
+        return imp - descuento;
     }
+
+    @Override
+    public String toString() {
+        return "ClienteSmart [" + super.toString() + "porcentajeDescuento=" + porcentajeDescuento + "]";
+    }
+
+    
 
 
     

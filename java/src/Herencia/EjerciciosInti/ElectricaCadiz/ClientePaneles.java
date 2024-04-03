@@ -18,8 +18,16 @@ public class ClientePaneles extends Cliente{
 
     @Override
     public double importeFacura(){
-        return super.importeFacura() - (energiaInyectada * 0.0034);
+        return super.importeFacura() - energiaInyectada * 0.0034;
     }
+
+    @Override
+    public String toString() {
+        return "ClienteSmart [" + super.toString() +"energiaInyectada=" + energiaInyectada + ", contadorEnergiaInyectada="
+                + contadorEnergiaInyectada + "]";
+    }
+
+    
     
   
 }
