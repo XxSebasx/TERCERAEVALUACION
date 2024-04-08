@@ -9,7 +9,7 @@ public class ExcProb {
     public static void main(String[] args) {
         int num = 20;
         try {
-            Scanner inFile = new Scanner(new File("C:\\Users\\moust\\OneDrive\\Escritorio\\TERCERAEVALUACION\\java\\src\\data"));
+            Scanner inFile = new Scanner(new File("data"));
             while (inFile.hasNext()) {
                 int inVal = inFile.nextInt();
                 num = num + inVal;

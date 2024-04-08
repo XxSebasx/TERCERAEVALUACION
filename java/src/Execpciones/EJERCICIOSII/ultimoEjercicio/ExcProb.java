@@ -26,7 +26,7 @@ public class ExcProb {
 
     private static ArrayList<String> readFile() throws IOException{
         ArrayList<String> lines = new ArrayList<>();
-        try (Scanner inFile = new Scanner(new File("C:\\Users\\moust\\OneDrive\\Escritorio\\TERCERAEVALUACION\\java\\src\\data"))){
+        try (Scanner inFile = new Scanner(new File("data"))){
             for (int i = 0; i < 3; i++) {
                 lines.add(inFile.nextLine());
             }
